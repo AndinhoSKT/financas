@@ -1,8 +1,7 @@
-namespace financas.Models
+using financas.Models;
+public class Menu
 {
-    public class Menu
-    {
-         private Conta conta;
+    private Conta conta;
 
     public Menu()
     {
@@ -17,7 +16,8 @@ namespace financas.Models
             Console.WriteLine("----- Menu Financeiro -----");
             Console.WriteLine("1. Adicionar Entrada");
             Console.WriteLine("2. Adicionar Saída");
-            Console.WriteLine("3. Exibir Extrato");
+            Console.WriteLine("3. Exibir Extrato Completo");
+            Console.WriteLine("4. Exibir Extrato por Período");
             Console.WriteLine("0. Sair");
             Console.Write("Escolha uma opção: ");
             opcao = int.Parse(Console.ReadLine());
@@ -32,6 +32,9 @@ namespace financas.Models
                     break;
                 case 3:
                     conta.ExibirExtrato();
+                    break;
+                case 4:
+                    ExibirExtratoPorPeriodo();
                     break;
                 case 0:
                     Console.WriteLine("Saindo...");
@@ -52,5 +55,14 @@ namespace financas.Models
         Transacao transacao = new Transacao(DateTime.Now, descricao, valor, tipo);
         conta.AdicionarTransacao(transacao);
     }
+
+    private void ExibirExtratoPorPeriodo()
+    {
+        Console.Write("Data de início (dd/MM/yyyy): ");
+        DateTime inicio = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy", null);
+        Console.Write("Data de fim (dd/MM/yyyy): ");
+        DateTime fim = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy", null);
+
+        conta.ExibirExtratoPorPeriodo(inicio, fim);
     }
 }

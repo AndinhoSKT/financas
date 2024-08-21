@@ -12,3 +12,4 @@ F:\Projetos\financas\obj\Debug\net8.0\refint\financas.dll
 F:\Projetos\financas\obj\Debug\net8.0\financas.pdb
 F:\Projetos\financas\obj\Debug\net8.0\financas.genruntimeconfig.cache
 F:\Projetos\financas\obj\Debug\net8.0\ref\financas.dll
+F:\Projetos\financas\obj\Debug\net8.0\financas.sourcelink.json
