@@ -1,0 +1,14 @@
+F:\Projetos\financas\bin\Debug\net8.0\financas.exe
+F:\Projetos\financas\bin\Debug\net8.0\financas.deps.json
+F:\Projetos\financas\bin\Debug\net8.0\financas.runtimeconfig.json
+F:\Projetos\financas\bin\Debug\net8.0\financas.dll
+F:\Projetos\financas\bin\Debug\net8.0\financas.pdb
+F:\Projetos\financas\obj\Debug\net8.0\financas.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projetos\financas\obj\Debug\net8.0\financas.AssemblyInfoInputs.cache
+F:\Projetos\financas\obj\Debug\net8.0\financas.AssemblyInfo.cs
+F:\Projetos\financas\obj\Debug\net8.0\financas.csproj.CoreCompileInputs.cache
+F:\Projetos\financas\obj\Debug\net8.0\financas.dll
+F:\Projetos\financas\obj\Debug\net8.0\refint\financas.dll
+F:\Projetos\financas\obj\Debug\net8.0\financas.pdb
+F:\Projetos\financas\obj\Debug\net8.0\financas.genruntimeconfig.cache
+F:\Projetos\financas\obj\Debug\net8.0\ref\financas.dll
